@@ -7,8 +7,6 @@ Features:
 - delete todo
 - switch between tabs: all | done | not done
 
-## Look up the demo!
-
 ## Tools
 
 React, TypeScript, React Hooks, MobX, Json-server
@@ -18,8 +16,11 @@ React, TypeScript, React Hooks, MobX, Json-server
 In the project directory, you can run:
 
 npm install
+
 npm install --save @types/uuid
+
 npm install --save @types/react-icons
+
 npx json-server -p 3500 -w data/db.json
 
 ### `npm start`
