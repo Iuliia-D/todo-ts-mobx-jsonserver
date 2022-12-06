@@ -1,0 +1,66 @@
+.todo-item {
+  width: 100%;
+  & > li {
+    color: white;
+    background-color: var(--item-bgc-color);
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid var(--green-color);
+    border-radius: 10px;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;
+    @media screen and (max-width: 1000px) {
+      width: 80%;
+    }
+    @media screen and (max-width: 600px) {
+      width: 95%;
+    }
+  }
+}
+.todo-icons {
+  font-size: 22px;
+  width: 80px;
+  display: flex;
+  justify-content: space-around;
+  & > * {
+    cursor: pointer;
+    &:hover {
+      transition: all ease-in-out 0.3s;
+      transform: scale(1.2);
+      color: var(--green-color);
+    }
+  }
+  & > input[type="checkbox"] {
+    height: 22px;
+    width: 22px;
+  }
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.filter-item {
+  width: 100%;
+  text-align: center;
+  padding: 0.3rem;
+  font-size: var(--font-size-sm);
+  text-decoration: underline;
+  background-color: var(--item-bgc-color);
+  color: var(--white-color);
+
+  cursor: pointer;
+
+  &._active {
+    background-color: var(--green-color);
+    color: var(--primary-color);
+    text-decoration: none;
+
+    &:hover {
+      outline: none;
+      cursor: default;
+    }
+  }
+}

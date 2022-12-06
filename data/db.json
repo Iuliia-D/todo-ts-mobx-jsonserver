@@ -1,0 +1,29 @@
+{
+  "todos": [
+    {
+      "id": "2022-12-02T08:22:11.176Z",
+      "title": "Погулять с собакой",
+      "complete": false
+    },
+    {
+      "id": "2022-12-02T08:39:43.398Z",
+      "title": "Заехать в магазин",
+      "complete": false
+    },
+    {
+      "id": "b11d3820-aef8-43f2-a017-fb03bd6342d0",
+      "title": "Полить цветы",
+      "complete": true
+    },
+    {
+      "id": "a06407f8-093b-409f-8684-3d7cfba9f735",
+      "title": "Перезвонить другу",
+      "complete": true
+    },
+    {
+      "id": "a9d7d626-9da0-4a3e-8a43-0bebd79aecb9",
+      "title": "Заехать на заправку",
+      "complete": false
+    }
+  ]
+}
